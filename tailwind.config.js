@@ -12,7 +12,8 @@ export default {
       },
 
       fontFamily: {
-        poppins: [],
+        point: ["Point Regular", "sans-serif"],
+        pointbold: ["Point Bold", "sans-serif"],
       },
     },
 
