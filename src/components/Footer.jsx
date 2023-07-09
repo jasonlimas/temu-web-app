@@ -1,29 +1,37 @@
-import React from 'react'
+import React from 'react';
 import { navLinks } from '../constants';
 import { temulogoinvert } from '../assets';
 
-const Navbar = () => {
+const Footer = () => {
   return (
     <div>
-      <nav className='w-full flex py-6 lg:px-28 lg:py-16 justify-between items-center navbar'>
-        <img src={temulogoinvert} alt='logo' className='w-24 lg:w-36 h-auto' />
+      <footer className="w-full flex flex-col sm:flex-row py-10 lg:px-28 lg:py-16 justify-between items-center">
+        {/* Logo */}
+        <img
+          src={temulogoinvert}
+          alt="logo"
+          className="w-24 lg:w-36 h-auto mb-4 sm:mb-0 hidden sm:block"
+        />
 
-        <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
-          <li key={navLinks[3].id} className={`font-point text-lg mr-12 cursor-pointer text-white`}>
-            <a href={`#${navLinks[3].id}`}>
-              {navLinks[3].title}
-            </a>
+        {/* Links */}
+        <ul className="list-none sm:flex sm:justify-end items-center flex-1">
+          <li
+            key={navLinks[3].id}
+            className={`font-point text-lg cursor-pointer text-white py-2 sm:mr-12 mr-0 mb-2 sm:mb-0 text-center`}
+          >
+            <a href={`#${navLinks[3].id}`}>{navLinks[3].title}</a>
           </li>
 
-          <li key={navLinks[4].id} className={`font-point text-lg mr-0 cursor-pointer text-white`}>
-            <a href={`#${navLinks[4].id}`}>
-              {navLinks[4].title}
-            </a>
+          <li
+            key={navLinks[4].id}
+            className={`font-point text-lg cursor-pointer text-white py-2 text-center`}
+          >
+            <a href={`#${navLinks[4].id}`}>{navLinks[4].title}</a>
           </li>
         </ul>
-      </nav>
+      </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Footer;
