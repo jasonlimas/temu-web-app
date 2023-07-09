@@ -4,6 +4,8 @@ import temuinterest from './temuinterest.png';
 import temugoals from './temugoals.png';
 import temumarket from './temumarket.png';
 import temucommunity from './temucommunity.png';
+import close from './close.svg';
+import menu from './menu.svg';
 
 export {
     temulogoinvert,
@@ -12,4 +14,6 @@ export {
     temugoals,
     temucommunity,
     temumarket,
+    close,
+    menu,
 }
