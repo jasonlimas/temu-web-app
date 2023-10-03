@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './style';
 
 // Import all components
-import { Navbar, Hero, Features, Screenshots, SubscribeForm, Footer } from './components';
+import { Navbar, Hero, Features, Screenshots, SubscribeForm, Footer, TransitionOne } from './components';
 
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
@@ -17,6 +17,8 @@ const App = () => (
         <Hero />
       </div>
     </div>
+
+    <TransitionOne />
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
