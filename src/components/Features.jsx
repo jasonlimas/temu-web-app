@@ -5,28 +5,52 @@ import { features_1, features_2, features_3 } from '../assets';
 const Features = () => {
   return (
     <section id='features' className={`flex flex-col items-center ${styles.paddingY} featuresContainer`}>
-      <div className="w-full flex justify-center">
+      {/* Intro */}
+      <div className="w-full flex justify-center mb-12">
         <h2 className={`text-3xl text-primary font-point`}>
           <div className="max-w-5xl text-center">
             Temu helps you get the most of your uni life through a modern and safe approach. Here are some of our helpful features:
           </div>
         </h2>
       </div>
+
+      {/* Features (images and texts) */}
       <div className="flex flex-wrap justify-center mt-12 w-full">
         {/* Column 1 */}
-        <div className="flex flex-col items-center justify-end mx-20">
-          <img src={features_1} alt="Feature 1" className="w-80 h-auto" />
-          <p className="mt-4 text-center">Feature 1 Description</p>
+        <div className="flex flex-col items-center mx-10">
+          <div className="h-[150px] flex items-end">
+            <img src={features_1} alt="Feature 1" className="w-64 h-auto" />
+          </div>
+          <h2 className="mt-4 text-3xl text-center font-pointbold text-primary max-w-sm h-[3rem]">
+            1. Meet new friends!
+          </h2>
+          <p className="text-2xl text-center font-point text-primary max-w-sm h-[4rem]">
+            Easily discover new friends from your class, university, or clubs.
+          </p>
         </div>
         {/* Column 2 */}
-        <div className="flex flex-col items-center justify-end mx-20">
-          <img src={features_2} alt="Feature 2" className="w-64 h-auto" />
-          <p className="mt-4 text-center">Feature 2 Description</p>
+        <div className="flex flex-col items-center mx-10">
+          <div className="h-[150px] flex items-end">
+            <img src={features_2} alt="Feature 2" className="w-52 h-auto" />
+          </div>
+          <h2 className="mt-4 text-3xl text-center font-pointbold text-primary max-w-sm h-[3rem]">
+            2. Flatemate finder
+          </h2>
+          <p className="text-2xl text-center font-point text-primary max-w-sm h-[4rem]">
+            A safer way to look for housemate.
+          </p>
         </div>
         {/* Column 3 */}
-        <div className="flex flex-col items-center justify-end mx-20">
-          <img src={features_3} alt="Feature 3" className="w-64 h-auto" />
-          <p className="mt-4 text-center">Feature 3 Description</p>
+        <div className="flex flex-col items-center mx-10">
+          <div className="h-[150px] flex items-end">
+            <img src={features_3} alt="Feature 3" className="w-52 h-auto" />
+          </div>
+          <h2 className="mt-4 text-3xl text-center font-pointbold text-primary max-w-sm h-[3rem]">
+            3. Student Marketplace
+          </h2>
+          <p className="text-2xl text-center font-point text-primary max-w-sm h-[4rem]">
+            A secure way to sell your secondhand uni materials, or look for one!
+          </p>
         </div>
       </div>
     </section>
