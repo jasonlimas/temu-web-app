@@ -3,7 +3,7 @@ import styles from '../style';
 import { temuhome } from '../assets';
 
 const Hero = () => (
-  <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+  <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY} heroContainer`}>
     {/* Existing Image Section */}
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-4 sm:px-20 px-8`}>
       <div className='flex flex-row items-center py-[6px] px-4 rounded'>
@@ -18,7 +18,6 @@ const Hero = () => (
       <p className={`text-xl mt-4 text-white ${styles.headerFont} max-w-md`}>
         A new and safer way for students to get the most of their life in university.
       </p>
-      {/* Updated Button */}
       <button className="bg-white font-point text-primary rounded-full py-3 px-8 mt-10 text-xl">
         Learn More
       </button>

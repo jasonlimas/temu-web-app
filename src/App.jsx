@@ -18,11 +18,14 @@ const App = () => (
       </div>
     </div>
 
-    <TransitionOne />
+    <div className={`bg-secondary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Features />
+      </div>
+    </div>
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Features />
         <Screenshots />
         <SubscribeForm />
         <Footer />
