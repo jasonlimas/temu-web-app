@@ -6,8 +6,8 @@ const Hero = () => (
   <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY} heroContainer`}>
     {/* Existing Image Section */}
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-4 sm:px-20 px-8`}>
-      <div className='flex flex-row items-center py-[6px] px-4 rounded'>
-        <img src={temuhome} alt="temuhome" className='w-[560px] h-auto' />
+      <div className='phoneImageContainer flex flex-row items-center py-[6px] px-4 rounded'>
+          <img src={temuhome} alt="temuhome" className='w-[560px] h-auto' />
       </div>
     </div>
 
