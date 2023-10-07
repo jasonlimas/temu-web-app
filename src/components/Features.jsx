@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../style';
+import { features_1, features_2, features_3 } from '../assets';
 
 const Features = () => {
   return (
@@ -11,20 +12,20 @@ const Features = () => {
           </div>
         </h2>
       </div>
-      <div className="flex flex-wrap justify-around mt-12 w-full">
+      <div className="flex flex-wrap justify-center mt-12 w-full">
         {/* Column 1 */}
-        <div className="flex flex-col items-center m-4">
-          <img src="feature-image-1.png" alt="Feature 1" />
+        <div className="flex flex-col items-center justify-end mx-20">
+          <img src={features_1} alt="Feature 1" className="w-80 h-auto" />
           <p className="mt-4 text-center">Feature 1 Description</p>
         </div>
         {/* Column 2 */}
-        <div className="flex flex-col items-center m-4">
-          <img src="feature-image-2.png" alt="Feature 2" />
+        <div className="flex flex-col items-center justify-end mx-20">
+          <img src={features_2} alt="Feature 2" className="w-64 h-auto" />
           <p className="mt-4 text-center">Feature 2 Description</p>
         </div>
         {/* Column 3 */}
-        <div className="flex flex-col items-center m-4">
-          <img src="feature-image-3.png" alt="Feature 3" />
+        <div className="flex flex-col items-center justify-end mx-20">
+          <img src={features_3} alt="Feature 3" className="w-64 h-auto" />
           <p className="mt-4 text-center">Feature 3 Description</p>
         </div>
       </div>
