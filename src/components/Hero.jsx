@@ -18,7 +18,7 @@ const Hero = () => (
       <p className={`text-xl mt-4 text-white ${styles.headerFont} max-w-md`}>
         A new and safer way for students to get the most of their life in university.
       </p>
-      <button className="bg-white font-point text-primary rounded-full py-3 px-8 mt-10 text-xl">
+      <button className="bg-white font-point text-primary rounded-full py-3 px-8 mt-10 text-xl hero-button">
         Learn More
       </button>
     </div>

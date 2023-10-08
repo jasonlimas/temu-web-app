@@ -14,13 +14,18 @@ const SubscribeForm = () => {
       {/* Right Column */}
       <div className="flex-2 flex flex-col justify-center items-start p-8">
         <form>
+          {/* Boxes */}
           <input type="text" placeholder="Name" className="form-input" />
           <input type="email" placeholder="Email" className="form-input mt-4" />
           <input type="text" placeholder="University" className="form-input mt-4" />
           <textarea placeholder="Message" className="form-input mt-4"></textarea>
-          <button className="bg-white text-primary border-2 border-primary rounded-full py-3 px-8 text-xl font-point">
-            Submit
-          </button>
+
+          {/* Submit button */}
+          <div className="flex justify-end mt-4">
+            <button className="bg-secondary hover:bg-primary text-primary hover:text-white border-2 border-primary rounded-full py-3 px-8 text-xl font-point transition duration-300 ease-in-out">
+              Submit
+            </button>
+          </div>
         </form>
       </div>
     </section>

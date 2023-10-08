@@ -15,7 +15,7 @@ const Screenshots = () => {
 
       {/* Subscribe Button */}
       <div className="flex justify-center items-center mt-8">
-        <button className="bg-white text-primary border-2 border-primary rounded-full py-3 px-8 text-xl font-point">
+        <button className="screenshot-button bg-white text-primary border-2 border-primary rounded-full py-3 px-8 text-xl font-point">
           Subscribe
         </button>
       </div>
