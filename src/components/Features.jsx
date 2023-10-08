@@ -21,10 +21,10 @@ const Features = () => {
           <div className="h-[150px] flex items-end">
             <img src={features_1} alt="Feature 1" className="w-64 h-auto" />
           </div>
-          <h2 className="mt-4 text-3xl text-center font-pointbold text-primary max-w-sm h-[3rem]">
+          <h2 className="mt-4 text-3xl text-center font-pointbold text-primary max-w-sm h-[3rem] featuresTextsContainer">
             1. Meet new friends!
           </h2>
-          <p className="text-2xl text-center font-point text-primary max-w-sm h-[4rem]">
+          <p className="text-2xl text-center font-point text-primary max-w-sm h-[4rem] featuresTextsContainer">
             Easily discover new friends from your class, university, or clubs.
           </p>
         </div>
@@ -33,10 +33,10 @@ const Features = () => {
           <div className="h-[150px] flex items-end">
             <img src={features_2} alt="Feature 2" className="w-52 h-auto" />
           </div>
-          <h2 className="mt-4 text-3xl text-center font-pointbold text-primary max-w-sm h-[3rem]">
+          <h2 className="mt-4 text-3xl text-center font-pointbold text-primary max-w-sm h-[3rem] featuresTextsContainer">
             2. Flatemate finder
           </h2>
-          <p className="text-2xl text-center font-point text-primary max-w-sm h-[4rem]">
+          <p className="text-2xl text-center font-point text-primary max-w-sm h-[4rem] featuresTextsContainer">
             A safer way to look for housemate.
           </p>
         </div>
@@ -45,10 +45,10 @@ const Features = () => {
           <div className="h-[150px] flex items-end">
             <img src={features_3} alt="Feature 3" className="w-52 h-auto" />
           </div>
-          <h2 className="mt-4 text-3xl text-center font-pointbold text-primary max-w-sm h-[3rem]">
+          <h2 className="mt-4 text-3xl text-center font-pointbold text-primary max-w-sm h-[3rem] featuresTextsContainer">
             3. Student Marketplace
           </h2>
-          <p className="text-2xl text-center font-point text-primary max-w-sm h-[4rem]">
+          <p className="text-2xl text-center font-point text-primary max-w-sm h-[4rem] featuresTextsContainer">
             A secure way to sell your secondhand uni materials, or look for one!
           </p>
         </div>
