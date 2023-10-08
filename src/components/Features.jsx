@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styles from '../style';
 import { features_1, features_2, features_3 } from '../assets';
 
-const Features = () => {
+const Features = forwardRef((props, ref) => {
+  //const featuresRef = useRef(null);
+
   return (
-    <section id='features' className={`flex flex-col items-center ${styles.paddingY} featuresContainer`}>
+    <section id='features' ref={ref} className={`flex flex-col items-center ${styles.paddingY} featuresContainer`}>
       {/* Intro */}
       <div className="w-full flex justify-center mb-12">
         <h2 className={`text-3xl text-primary font-point`}>
@@ -55,6 +57,6 @@ const Features = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Features;
